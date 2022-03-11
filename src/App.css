@@ -1,0 +1,126 @@
+.container{
+    text-align: center;
+}
+.container h1{
+   position: relative;
+   top: -20px;
+}
+.incomeContainer{ 
+   width: 300px;
+   height: 80px;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   box-shadow:2px 2px 2px 2px gray;
+   background-color: white;
+}
+.income{
+   position: relative;
+   left: 30px;
+}
+.expence{
+   position: relative;
+   right: 30px;
+}
+.expenceAmount{
+   position: relative;
+   top: -60px;
+   left: -20px;
+   color: rgb(123, 218, 218);
+}
+
+.incomeAmount{
+   position: relative;
+   top: -60px;
+   color: rgb(199, 140, 30);
+}
+.transactionBox{
+   margin: auto;
+   width: 310px;
+   position: relative;
+   top: 30px;
+   text-align: center;
+}
+
+.submit{
+   margin: auto;
+   margin: auto;
+   position: relative;
+   text-align: center;
+   top: 40px;
+}
+
+.data{
+   position: relative;
+   width: 320px;
+   top: -20px;
+   height: 30px;
+}
+
+.BTN{
+   background-color: rgb(116, 143, 224);
+   width: 330px;
+   top: -10px;
+   position: relative;
+   height: 30px;
+   color: white;
+   font-size: larger;
+}
+.BTN:hover{
+   cursor: pointer;
+}
+
+form h3{
+   position: relative;
+   top: -15px;
+   right: 110px;
+}
+
+
+body{
+   background-color: rgb(248, 244, 244);
+}
+
+
+.list:hover{
+   background-color: yellow;
+   box-shadow: 2px 2px 2px gray;
+   cursor: pointer;
+}
+
+.list{
+   list-style: none;
+   height: 30px;
+   position: relative;
+   right: 40px;
+   width: 320px;
+   top: -10px;
+}
+
+.descTd{
+   position: absolute;
+   left: 10px;
+   font-size: large;
+}
+
+.amountTd{
+   position: absolute;
+   font-size: large;
+   right: 10px;
+}
+
+.dlt{
+   position: absolute;
+   left: -22px;
+   opacity: 0;
+   background-color: yellow;
+   border: 0ch;
+   height: 30px;
+}
+.dlt:hover{
+   cursor: pointer;
+   display: inline;
+   opacity: 1;
+   box-shadow: 2px 2px 2px gray;
+
+}
